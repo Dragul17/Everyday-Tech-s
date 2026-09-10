@@ -1,0 +1,160 @@
+.card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  box-shadow: var(--shadow-sm);
+}
+
+@media (min-width: 768px) {
+  .card {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+  max-width: 200px;
+  margin: 0 auto;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background-color: #fff;
+  border: 1px solid var(--border-color);
+  flex-shrink: 0;
+}
+
+.image {
+  object-fit: contain;
+  padding: 1rem;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.titleLink {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.titleLink:hover {
+  color: #f59e0b; /* Match Amazon orange */
+}
+
+.rating {
+  font-size: 0.85rem;
+  color: var(--warning-color);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.description {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  background-color: var(--bg-color);
+  padding: 1rem;
+  border-radius: var(--radius-md);
+}
+
+@media (min-width: 640px) {
+  .features {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.featureList h4 {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.pros h4 { color: var(--success-color); }
+.cons h4 { color: var(--error-color); }
+
+.featureList ul {
+  padding-left: 1.5rem;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  list-style-type: disc;
+}
+
+.featureList li {
+  margin-bottom: 0.25rem;
+}
+
+.action {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .action {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.price {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #f59e0b; /* Amazon-ish but generic orange */
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  transition: var(--transition);
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #d97706;
+}
+
+.disclosure {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-align: center;
+  margin-top: 0.5rem;
+}

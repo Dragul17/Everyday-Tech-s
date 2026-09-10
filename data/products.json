@@ -1,0 +1,90 @@
+[
+  {
+    "id": "p-001",
+    "name": "Anker PowerCore 10000 Portable Charger",
+    "shortDescription": "One of the smallest and lightest 10000mAh portable chargers. Provides almost three-and-a-half iPhone 8 charges or two-and-a-half Galaxy S8 charges.",
+    "imageUrl": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=500&h=500&fit=crop",
+    "affiliateUrl": "https://www.amazon.in/",
+    "ctaText": "View on Amazon",
+    "category": "everyday-technology",
+    "pros": [
+      "Extremely compact",
+      "Fast charging technology",
+      "Durable build"
+    ],
+    "cons": [
+      "Does not include a wall charger",
+      "Micro-USB input for recharging"
+    ],
+    "priceText": "Check Amazon for current price",
+    "ratingText": "Highly Rated",
+    "isVisible": true,
+    "isFeatured": true
+  },
+  {
+    "id": "p-002",
+    "name": "Logitech MX Master 3S Wireless Mouse",
+    "shortDescription": "Advanced wireless mouse with hyper-fast scrolling, ergonomic design, and customizable buttons for ultimate productivity.",
+    "imageUrl": "https://images.unsplash.com/photo-1527814050087-379381547962?w=500&h=500&fit=crop",
+    "affiliateUrl": "https://www.amazon.in/",
+    "ctaText": "View on Amazon",
+    "category": "laptop-and-computer-accessories",
+    "pros": [
+      "Exceptional ergonomics",
+      "MagSpeed scrolling",
+      "Works on glass surfaces"
+    ],
+    "cons": [
+      "Premium price point",
+      "Right-handed design only"
+    ],
+    "priceText": "Check Amazon for current price",
+    "ratingText": "Top Pick for Productivity",
+    "isVisible": true,
+    "isFeatured": true
+  },
+  {
+    "id": "p-003",
+    "name": "Keychron K4 Wireless Mechanical Keyboard",
+    "shortDescription": "A 96% layout wireless mechanical keyboard that offers the perfect balance of a compact design and full functionality.",
+    "imageUrl": "https://images.unsplash.com/photo-1595225476474-87563907a212?w=500&h=500&fit=crop",
+    "affiliateUrl": "https://www.amazon.in/",
+    "ctaText": "View on Amazon",
+    "category": "desk-and-study-setup",
+    "pros": [
+      "Mac and Windows compatibility",
+      "Hot-swappable options",
+      "Large battery capacity"
+    ],
+    "cons": [
+      "Slightly thick profile",
+      "Bluetooth switching can take a few seconds"
+    ],
+    "priceText": "Check Amazon for current price",
+    "ratingText": "Great for Typists",
+    "isVisible": true,
+    "isFeatured": false
+  },
+  {
+    "id": "p-004",
+    "name": "Apple AirPods Pro (2nd Generation)",
+    "shortDescription": "Wireless earbuds with up to 2X more Active Noise Cancellation, Adaptive Transparency, and Personalized Spatial Audio.",
+    "imageUrl": "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=500&h=500&fit=crop",
+    "affiliateUrl": "https://www.amazon.com/dp/B0BDHWDR12",
+    "ctaText": "View on Amazon",
+    "category": "everyday-technology",
+    "pros": [
+      "Excellent noise cancellation",
+      "Seamless Apple ecosystem integration",
+      "Comfortable fit"
+    ],
+    "cons": [
+      "High price point",
+      "Requires Apple device for full features"
+    ],
+    "priceText": "Check Amazon for current price",
+    "ratingText": "Top Pick for Audio",
+    "isVisible": true,
+    "isFeatured": true
+  }
+]

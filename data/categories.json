@@ -1,0 +1,38 @@
+[
+  {
+    "id": "smartphones-and-accessories",
+    "name": "Smartphones & Accessories",
+    "slug": "smartphones-and-accessories",
+    "description": "Essential gear and accessories for your smartphone to enhance your mobile experience."
+  },
+  {
+    "id": "laptop-and-computer-accessories",
+    "name": "Laptop & Computer Accessories",
+    "slug": "laptop-and-computer-accessories",
+    "description": "Must-have peripherals, stands, and hubs to improve your computing workflow."
+  },
+  {
+    "id": "student-essentials",
+    "name": "Student Essentials",
+    "slug": "student-essentials",
+    "description": "Tech and gadgets designed to help students study smarter and stay organized."
+  },
+  {
+    "id": "desk-and-study-setup",
+    "name": "Desk & Study Setup",
+    "slug": "desk-and-study-setup",
+    "description": "Everything you need for a comfortable, ergonomic, and productive workspace."
+  },
+  {
+    "id": "budget-gadgets",
+    "name": "Budget Gadgets",
+    "slug": "budget-gadgets",
+    "description": "Affordable technology that punches above its weight without breaking the bank."
+  },
+  {
+    "id": "everyday-technology",
+    "name": "Everyday Technology",
+    "slug": "everyday-technology",
+    "description": "Practical devices and smart solutions for your daily life."
+  }
+]
